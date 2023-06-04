@@ -1,0 +1,28 @@
+.callWrap{
+    padding: 10px 0 10px 0;
+    text-align: center;
+    clear: both;
+    height: 80px;
+}
+
+.callWrap .callName{
+    margin-top: 4%;
+    width: 60%;
+    padding: 0px;
+    font-size: 20px;
+    float: left;
+}
+
+.callWrap .callTel{
+    padding: 0px 10px;
+    width: 18%;
+    margin-top: 3%;
+    float: left;
+}
+
+.callWrap .callSMS{
+    padding: 0px 10px;
+    width: 12%;
+    margin-top: 3%;
+    float: left;
+}
