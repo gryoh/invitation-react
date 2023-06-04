@@ -370,3 +370,41 @@
     transform: translateX(50%);
     background-size: 100%;
 }
+
+.section.gallery{
+    padding: 3%;
+}
+
+.section.gallery .title{
+    font-size: 12px;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.section.gallery .title_sub{
+    font-size: 20px;
+}
+
+.section.gallery .galleryWrap{
+    margin: 20px 0;
+    overflow: hidden;
+}
+.section.gallery .galleryFigure{
+    clear: both;
+}
+
+.section.gallery .galleryFigure img{
+    vertical-align: top;
+    float: left;
+    width: 33.33%;
+    box-sizing: border-box;
+    padding: 7px;
+}
+
+.section.location{
+
+}
+
+.section.guestbook{
+
+}

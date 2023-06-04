@@ -81,11 +81,38 @@ export default function Home() {
             </div>
         </div>
 
-        <div>갤러리</div>
+        <div className={[`${styles.section} ${styles.gallery}`]}>
+            <p className={styles.title}>GALLERY</p>
+            <p className={styles.title_sub}>우리들의 아름다운 시작</p>
+            <div className={styles.galleryWrap}>
+                <div className={styles.galleryFigure}>
+                    <img src="/images/bubu.jpeg"/>
+                    <img src="/images/bubu2.jpeg"/>
+                    <img src="/images/bubu.jpeg"/>
+                </div>
 
-        <div>찾아오시는길</div>
+                <div className={styles.galleryFigure}>
+                    <img src="/images/bubu2.jpeg"/>
+                    <img src="/images/bubu.jpeg"/>
+                    <img src="/images/bubu2.jpeg"/>
+                </div>
 
-        <div>축하의 한마디씩</div>
+                <div className={styles.galleryFigure}>
+                    <img src="/images/bubu.jpeg"/>
+                    <img src="/images/bubu2.jpeg"/>
+                    <img src="/images/bubu.jpeg"/>
+                </div>
+            </div>
+
+        </div>
+
+        <div className={[`${styles.section} ${styles.location}`]}>
+            <p>찾아오시는길</p>
+        </div>
+
+        <div className={[`${styles.section} ${styles.guestbook}`]}>
+            <p>축하의 한마디씩</p>
+        </div>
     </main>
   )
 }
