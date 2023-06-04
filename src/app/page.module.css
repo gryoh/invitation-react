@@ -1,3 +1,4 @@
+/*
 .main {
   display: flex;
   flex-direction: column;
@@ -107,7 +108,7 @@
 .logo {
   position: relative;
 }
-/* Enable hover only on non-touch devices */
+!* Enable hover only on non-touch devices *!
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
     background: rgba(var(--card-rgb), 0.1);
@@ -125,7 +126,7 @@
   }
 }
 
-/* Mobile */
+!* Mobile *!
 @media (max-width: 700px) {
   .content {
     padding: 4rem;
@@ -202,7 +203,7 @@
   }
 }
 
-/* Tablet and Smaller Desktop */
+!* Tablet and Smaller Desktop *!
 @media (min-width: 701px) and (max-width: 1120px) {
   .grid {
     grid-template-columns: repeat(2, 50%);
@@ -226,4 +227,78 @@
   to {
     transform: rotate(0deg);
   }
+}
+*/
+
+
+.section{
+    min-height: 500px;
+    max-height: 700px;
+    font-family: "Nanum Myeongjo", serif;
+}
+
+.section.intro{
+    position: relative;
+    height: 700px;
+}
+
+.section.intro img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+}
+
+.section.intro .pWrap {
+    width: 100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%;
+    text-align: center;
+}
+
+.section.intro .pWrap .name{
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 0.11em;
+    height: 52px;
+}
+
+.section.intro .pWrap .hallFirst{
+    font-size: 18px;
+    letter-spacing: 0em;
+    height: 26px;
+    margin-top: 180px;
+}
+
+.section.intro .pWrap .hall{
+    font-size: 18px;
+    letter-spacing: 0em;
+    height: 26px;
+}
+
+.section.message{
+    position: relative;
+    text-align: center;
+}
+
+.section.message .message_title{
+    font-size: 18px;
+    padding: 70px 0;
+
+}
+
+.section.message .message_content{
+    font-size: 17.51px;
+    text-align: center;
+    letter-spacing: 0em;
+    line-height: 2.3em;
+}
+
+.section.call{
+    background: #f8f8f8;
+    padding: 40px 0;
 }
